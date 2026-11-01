@@ -1,0 +1,39 @@
+name: One-time Strava login
+
+# Run this ONCE by hand after you authorise the app on Strava. It trades the one-time code
+# for your refresh token and saves it straight into the STRAVA_REFRESH_TOKEN secret,
+# so the token never appears in the logs and you never need a terminal.
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "The code= value from the address bar after authorising on Strava"
+        required: true
+        type: string
+
+jobs:
+  exchange:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trade the code for a refresh token and save it
+        env:
+          CODE: ${{ inputs.code }}
+          CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$CLIENT_ID" ] || [ -z "$CLIENT_SECRET" ] || [ -z "$GH_TOKEN" ]; then
+            echo "Add the STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET and GH_PAT secrets first."; exit 1
+          fi
+          RESP=$(curl -sS -X POST https://www.strava.com/oauth/token \
+            -d client_id="$CLIENT_ID" -d client_secret="$CLIENT_SECRET" \
+            -d code="$CODE" -d grant_type=authorization_code)
+          TOKEN=$(echo "$RESP" | jq -r '.refresh_token // empty')
+          if [ -z "$TOKEN" ]; then
+            echo "Strava refused it: $(echo "$RESP" | jq -r '.message // "unknown error"') (codes expire fast and work once: authorise again for a fresh one)"
+            exit 1
+          fi
+          echo "::add-mask::$TOKEN"
+          printf '%s' "$TOKEN" | gh secret set STRAVA_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Done: STRAVA_REFRESH_TOKEN saved. You can now run 'Sync Strava runs'."
