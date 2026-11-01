@@ -1,1 +1,60 @@
-{"updated":null,"runs":[]}
+{
+ "updated": "2026-11-01T20:56:31.866Z",
+ "runs": [
+  {
+   "id": 20754023549,
+   "date": "2026-10-27T16:38:23Z",
+   "distance_m": 10007,
+   "moving_s": 3557,
+   "elapsed_s": 3557,
+   "elevation_m": 0,
+   "avg_hr": null,
+   "max_hr": null,
+   "type": "Run"
+  },
+  {
+   "id": 20685676404,
+   "date": "2026-10-22T10:47:02Z",
+   "distance_m": 5005,
+   "moving_s": 1614,
+   "elapsed_s": 1667,
+   "elevation_m": 0,
+   "avg_hr": null,
+   "max_hr": null,
+   "type": "Run"
+  },
+  {
+   "id": 20610126386,
+   "date": "2026-10-16T15:36:10Z",
+   "distance_m": 10015,
+   "moving_s": 3817,
+   "elapsed_s": 3817,
+   "elevation_m": 0,
+   "avg_hr": null,
+   "max_hr": null,
+   "type": "Run"
+  },
+  {
+   "id": 20582981211,
+   "date": "2026-10-14T15:42:51Z",
+   "distance_m": 3324,
+   "moving_s": 1149,
+   "elapsed_s": 1149,
+   "elevation_m": 0,
+   "avg_hr": null,
+   "max_hr": null,
+   "type": "Run"
+  },
+  {
+   "id": 20539705845,
+   "date": "2026-10-11T11:27:46Z",
+   "distance_m": 3353,
+   "moving_s": 1328,
+   "elapsed_s": 1328,
+   "elevation_m": 0,
+   "avg_hr": null,
+   "max_hr": null,
+   "type": "Run"
+  }
+ ]
+}
