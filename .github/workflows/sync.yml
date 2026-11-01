@@ -64,8 +64,14 @@ jobs:
           git add data/runs.json
           if git diff --cached --quiet; then
             echo "No new runs."
-          else
-            git commit -m "Update runs $(date -u +%F)"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          git commit -m "Update runs $(date -u +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            echo "Push attempt $i failed, retrying..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 3))
+          done
+          echo "Could not push after 5 attempts"
+          exit 1
