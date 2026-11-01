@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T20:56:31.866Z",
+ "updated": "2026-11-01T22:04:10.857Z",
  "runs": [
   {
    "id": 20754023549,
@@ -10,7 +10,77 @@
    "elevation_m": 0,
    "avg_hr": null,
    "max_hr": null,
-   "type": "Run"
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1002,
+     "moving_s": 351,
+     "avg_hr": null,
+     "elevation_difference": -1.1
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 361,
+     "avg_hr": null,
+     "elevation_difference": -0.3
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 365,
+     "avg_hr": null,
+     "elevation_difference": 0.3
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 365,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 998,
+     "moving_s": 374,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 370,
+     "avg_hr": null,
+     "elevation_difference": 0
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 368,
+     "avg_hr": null,
+     "elevation_difference": 0
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 362,
+     "avg_hr": null,
+     "elevation_difference": 0.2
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 340,
+     "avg_hr": null,
+     "elevation_difference": 0.3
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 298,
+     "avg_hr": null,
+     "elevation_difference": -0.8
+    },
+    {
+     "distance_m": 7,
+     "moving_s": 3,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    }
+   ],
+   "route_enc": "/9gtyifxxGWPudMJ/3flXuam5IJIJ0cPYL3fELw6nsa2KnML88qRGKXNKsWVe9Ftd5ZK10AvggUjqbQxe3LAH9f/xbfT4Zr/hpiF1F6TOg8uKHgb+Z/q779FNhmGLcGEzr7FS6JYNnkRDGs8qpDfUqi1YA1/KtMfwhxQwHMNz04g8fnjo/528DD+K9aS/twWwfBLZdQgnLt0pVJgkbTgHOTAXj6Vdp7A+1/iFjuUBp8SMJi+fEiFoPzJMNyjQ7RN/2QT9W2zI/CcLWvwGcqcN6ef0ZID1hv0xWJv9RKVVvvsk6o7x+JRGjxWwUj2ujXmyYkIURkgxQoYe3V5WIStL/nTF2d6CUqQdFDcZKoPiJWHUj2j8v8CU9BRotIs/tkrMV6MjfmU+TKETttZspNVDhKPpzGIkDc31//xGvh5x6+oNlnVp5HAUGayUdB3d2Np96yVm10VnG5/xsTmJpzGpqrgdkUnqP/sxPOPxDIQ+wfycle6+jw1MmvU2C7N15xvgR4zRDEVYQRT0eyFORdlbNRIDeNxQLR76vfNFeu19lqejcckDSbODgp5xg5hxwahM20N+KuxmaYXVWMWfnGfqsDF4ekxj/hRV+1ekBSIiFPo0WZ8HU/3t36X1lhYYjcnxlUhaEIp+bv60Hf/RhRyJewvGTcRHKZFUeMGySX+PfKmbJW6IB/yaJgDUkfjwuSICqE9tWMHfcC+GYQdd5FKqlMsPIZP+74oBbhFD5A268NZQKSCN2hcaxOWbkE8AuFX29ed0IPFu16LRazKb0bVRL1wqjTynekRyVoboPyX7+PNyOYCLLymm674pcacdCVcvKXVott6c3wj9tLcV+usjJmmU8eQRayBCs5Q5eEM+UnIQxuhDwX/ZxPgKs+NTe/fbwtTBq0SLRY0PwnLy9sLHbZmSSLoJH5woAkHxFSP83yrRtXkrqtnv1W+Bfck21Xb8mtO61vMY824yQpB5QMwgh6GJSsWpnA16HzO0n+SZCafsnGcbT1ujKy898HQxwK4YuKvrApMd/gBdRS20EjRsyrrRLHXszR/cwhuRBCMiNBgipxXzguJmdnCesNx5JCObMz0tIiSMy5Y5M17KFW25agseZLXN/DVxIC8TTelxW/uAchyd28nQ9EhF4xusrhoX9BY/tD/e3tvYMPKBoeGcEdU64/fC69k9XdAh04T42wYtvT2SLCVQSUS4jv180cwhiHgXsArvh/UogDIXsW7ZYw0imTq/tApeoN+f3n51Enx7fUO3kyM7YABdf0nyV8TnZNQtvvOHQmE83731BWOnVv72D12nSshe2wlt6BStYhlvg+RclrcYt1RD1B+j/ZX7m4Y1hEPS54vP/m8EvRUy8x5KCZC1fjmOHJ8k5ANVZGS14u2ZPE9bUN7TK/8eTqcadc2y6Lkxwh148bpJduJMFH8+ZHPYHHhNWGx6MFCiPYFRbsa4Dd4HNo8eQ==",
+   "route_done": true
   },
   {
    "id": 20685676404,
@@ -21,7 +91,47 @@
    "elevation_m": 0,
    "avg_hr": null,
    "max_hr": null,
-   "type": "Run"
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1001,
+     "moving_s": 321,
+     "avg_hr": null,
+     "elevation_difference": -1.2
+    },
+    {
+     "distance_m": 1002,
+     "moving_s": 325,
+     "avg_hr": null,
+     "elevation_difference": -0.1
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 320,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 998,
+     "moving_s": 328,
+     "avg_hr": null,
+     "elevation_difference": 0.2
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 319,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 3,
+     "moving_s": 1,
+     "avg_hr": null,
+     "elevation_difference": 0
+    }
+   ],
+   "route_enc": "F3678mwx30jp+Kqdch85JfCUxRi1BGGore1Ki85cRaZK2Cy+RE+UpxInjPqLsTr5JXZ9Zj+ZnMR14kA7It2c8uVP+tztjO3Tgi9UgrooQMiFNwxpjTv/CWFNmlLplH5hU6ZlxLYqH/28oNx+nNzgMHngjBBrJu0pNCumEauLzI+bZ4bijdc0dsCMM8orE9kpCcJO4hSBhfVvXhRR+C+dvUEPyvfDLnaBHhD9uLHFHth/jmjitZq6MIRo/hb7GxnF5+QSi0pRjei8AUwfzR+bOVSLBarLhP2MC4Q+rKlbmCInzXWY/ZKq77g/+hf8ryLsATLnbcKinRuBhHuLKcPAx7Tq8ZPlSSuWO/86jp0/OuY7aVgxoTzd3i4EplRhQm9tGriUBBSbFdKJx553KEFSGvBKfvE/qlrOlB7UKepP2Gs5q134XTMp20V1cWeEk2t8RTO8A0V1XJBEUBhseD+KLmnHY+9tAjTWNWSP+I+t/RbueNAQPUyDBqKHp+opZ/Ub3IE+fmCa7BkdybyKICtGuanLi2Ks2WIEPuY2SAj7jJB/3/xigG/67pCMhBq4XHogKz+a4uMmkRNEmo6EZX01F4RzJvocpFszWs6GQX+ncP5ura25Lbm1RKFtJLk4MEgYy1U0zs9lIFp1yVqLo3TUtVdNBjx1PQY/T1HaUsjoakCNLGnxCaLKX+pvV5XBgzTwzzMDYymw4q7R2zH6ks8IRk66/PquMob5+k18FNA0qTr90RiBSQq1UwlsEX2/y6MZjcUpFsQNCRFRyJGBf+fggI+MpgCOnOi9QWjnyEzHcxD3CKiq7f0RnULqgBkvCWm/Nu0/qAO9eNrvgUc+xEV6XiL2ndjaEubVKXUMQRkjzvW5Z/eDDfS6aydqZ5ILVdLgFiXrMHyOegC4hMX9K/ejQSdNgA+MSOrZQdyPyzQQbcUIyUsxj5h2qm6uNPDxQusWvI9QpXS4uxcxIveo/bQZ894ccmYZ6pFh/MBIaSWRZ9rvY89qIuSlQKHio/N+mePmKsL0LfVZ5us89VTTDZffit+3Nu+XHqGis920NJmGTh+FhkwLEMWIvds98N3jmwCIgLyOeytLG+32k/EEOySTzW3OfKKwW8H79xToP2VftooHbxO+rr6CRd3tm5xj2IhktODWtKBQBF3ezQhFV/6agMkLR3uRPfWhZf/x3jNSt4ZGA61A/WAzug==",
+   "route_done": true
   },
   {
    "id": 20610126386,
@@ -32,7 +142,77 @@
    "elevation_m": 0,
    "avg_hr": null,
    "max_hr": null,
-   "type": "Run"
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1002,
+     "moving_s": 388,
+     "avg_hr": null,
+     "elevation_difference": -1
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 381,
+     "avg_hr": null,
+     "elevation_difference": -0.3
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 392,
+     "avg_hr": null,
+     "elevation_difference": 0.3
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 386,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 1002,
+     "moving_s": 390,
+     "avg_hr": null,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 396,
+     "avg_hr": null,
+     "elevation_difference": 0
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 379,
+     "avg_hr": null,
+     "elevation_difference": 0
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 389,
+     "avg_hr": null,
+     "elevation_difference": 0.4
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 384,
+     "avg_hr": null,
+     "elevation_difference": 0.2
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 327,
+     "avg_hr": null,
+     "elevation_difference": -0.9
+    },
+    {
+     "distance_m": 14,
+     "moving_s": 5,
+     "avg_hr": null,
+     "elevation_difference": 0
+    }
+   ],
+   "route_enc": "62q72bZfWiliOFCDeddvj9RNRwhCHfYXIwtzYWvBuR9t1lAP+Qs8M5WcLQyZFJnAe8o+kv6oeQYdI6NHsg8fEGb6WmF/i/AWsTLC4Svjdt4Eb12tf+W8zaXNyC2853pk1sOB0bwlekK1xYzC7o7oHdxiTdziym2Oo5pzKQAr6UcKSV+mwU7YR7dHzssCqlqfO2umLlIozN/Myk3NNC3zUD3lPH9X4eIQeMes9kDEkABRZLhPDWEwz3ttQTqBKLuY/qDpgUHvbr7MB0wLKvHkfZVwScWnQBIlrSD6q3vG0zUvefGv+Hc5mEEliim07Jac/L/D9exZP2LznltfeGwgd4gtcZasNJwqOPWOZZmGQgGMali7WhR9b5ZeGAti3Wh2LwXETZk1SBm66JO4lt2WfE1yqdQV71qTX7s2Mpy4Eqlw46SejE285RdEAcrdO0K2l/wJDc2f01NBJ5WpLj0pN/QwhbYd+murIKFiLnJLxa8c27TDpNGy2AcHhTV0mRL0e/LaZav+vzhoRf9Ljvj2IMNkK0+TAwiOs7v2REhJz6jIkZtOhTlOY2DX/GtQOIwIfV1pFswX6d5qOGbn8COL4mHkEOT04CdZL3fQBBn7omHiIHOk6unrqOzfNYHvbaRB58zMOTMS7BYh2rSg/tgPW4VtfZQlmDwy8z6bn/Hm6Tbb3tZ0LaquSMCzX+Mls+ithKmTbtZFTr5CNsRjsIlWwRoo8HUlRB/IdJY8stXJ00dkSxASJqxI27ETaH4p33y9E63KN1LfnTLL+IuA+LjT7pXXB3/IxSwDJd8Uqc61bdnFQghi0KDOtTuDhwgf6FiW7eVYugJhnptUO6iukaer8r7/hfFIDoLOKpExtbxsBsunz231EwKxnlfQghDBMi2Q+zJq0fBy5+Lzu6CPyIOZzVpCiS9Cls3iJHwIRbQMMNyJUY4jbBiO52aYcrqBmeX/dm0oH6KDLr4XthNji7bHlR2OmUUFOMjbb0QyDIji+ggt/kE7a3lYh4OaYZ7ztkcGHaWT4WhVcPi7duIf5AsQtO4cDdrpRB63pV43CN/2q7S8A5v0bajLMszcjjIqm5/JimXvqH8JPQ7TfD5ELSymWzKHItXgLirWttcEpgsxzDTpn/pVdnFfmsMDD8wMYIzA/Acg9t4KIAjPfXwBC1Kg1zYI8bGOeNmiLB/28n0lih1QqCVtpRRgR5Tx96UnJ4BLMS0iQmctO/Medirlo54RbRxTtITxPgUGBaDDPeRnzzSEgFGvCFoEpm3BmV0X/g4pt23bStxkuURWaXad1UqEnmMTbVk2tvsgY7sa6CI6qz+qEp43Zq7uM7InkShf3QfgNN+3WmuvGyuSaLbGeWiOTND6JJ2FMIx/WWcQ9pV9+BikMTbxrk4eJROY5GzwYtBUiH4KUibFaCCaKCvUROuYm0rbbhPj+P1JHusUiTkUBEHijw6G9CRW",
+   "route_done": true
   },
   {
    "id": 20582981211,
@@ -43,7 +223,35 @@
    "elevation_m": 0,
    "avg_hr": null,
    "max_hr": null,
-   "type": "Run"
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1002,
+     "moving_s": 355,
+     "avg_hr": null,
+     "elevation_difference": -1
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 346,
+     "avg_hr": null,
+     "elevation_difference": -0.3
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 345,
+     "avg_hr": null,
+     "elevation_difference": 0.3
+    },
+    {
+     "distance_m": 324,
+     "moving_s": 103,
+     "avg_hr": null,
+     "elevation_difference": 0.4
+    }
+   ],
+   "route_enc": "q+xMWseVybkPqnzNvt/OWd0Aa/KZxsVTPsIIeiX74kWtv+XNlbcVWqMpTmeELX/Bzh6pAg+sV90FvJ9L4g3752nx47UZH6RBJ2r+72xIChVstL0aknTJcHnhN8Qi9w3JnTAgcfdjJ7OiRVYtKpOr6c60VQ+PwIUxjxaACe6vo3JEDLfmJZn0HHMlXAwsmi8Y00HVbNt3WOlIx6B4XDi3mlLVtTVk+ZSdyLbqF3owz+auQtE+TBDy5Zyr+3f+z+HNmj6N/OYeU5TboQcq7I1Xflw98wxVgK1P4WXKEGdzFE1QAJ8p3OhDZzxgk3fdAt9utzti7xzvbUTW6ud+LoR4HDzRrFwEhm4Vt98iCWqnTKljw4whpGJnnaumU+0wtvhCyDH7Yee3numjfGecGllSh2NhQ/XULTHlO8RJfFciGC4mUV70Y+mXKi67BmKSqq4jBp9kk1xiJUO/yiOzKLMmatM0D2ATBLiS0H97lI30coGLzNNCxWq7x1+UnooGc0f5worAul7/1uiY7ZjTsgB6QflEr6NTcQTgYX/35BveNC3+BGihZEprMN3Fn0AUNMlCBsK9ojEkcgrglVmgb6J00uSRB5qCCQ0XJj0M7I7GXAoN/hC8B+o+bseFFKeiVU5kCP3/cvz2a9wRSO8qp4CLSiY6ieC1bYDu5i5lhYvt3RW9you//rgVM1zzg5B5w3f142ZCZWTVB88YXcDxgq8CM6Ot7TBxz6fPxtcPuBZTeVzG3GLwQqSKOtDbmLJXI0ZRzCs4l9P89m3R17f+hQ0tujo6DloveImITG3XugeRz7F0/9Gq0H4Dm8t3hNYKbYGVCTjheqptHQ6uh98=",
+   "route_done": true
   },
   {
    "id": 20539705845,
@@ -54,7 +262,35 @@
    "elevation_m": 0,
    "avg_hr": null,
    "max_hr": null,
-   "type": "Run"
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1001,
+     "moving_s": 398,
+     "avg_hr": null,
+     "elevation_difference": -1.2
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 393,
+     "avg_hr": null,
+     "elevation_difference": -0.4
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 398,
+     "avg_hr": null,
+     "elevation_difference": 0.5
+    },
+    {
+     "distance_m": 350,
+     "moving_s": 139,
+     "avg_hr": null,
+     "elevation_difference": 0.8
+    }
+   ],
+   "route_enc": "FKUPVr9K14IvAW32L/sVeEfzY1Uu880KR9zetuq/8G1RPIOjjvPJyNFA1coGHUb86zVje+Jtxo6UWjHP3Irypie2g2kRGQIqqQ/HHwbDVoBRlzuaS2r1iow4TBNyCTKrA+YAXYIn/9pFLmhiuEGzzK48aaKt/5X5+LwvEU+Qu+6lZp0L06mxZCBy11Xj5d9hJkCZaVlFhZz4YkZcFcUVE5HzkRiyUnSO0TaYOtaqDSZpG55y5RLx4dUUg3J43VubaUwGDidt7PyFJuR2UjncnDUof8vWwV8iT2JqzIPa/guVW7ucDtfFN4Ndhs8/yx9NQf18JromE6GMwNe9knV2KYO4bA7yo/0pyi1uZKJOV4Wyewu1IfBTfadljfFe8937ZfK2p15FITPNWrX3H8wJ+XsC9RhycLEoVRrQ7HoMB1dGaJnKc5/qs11GzhwdWkqk6BdaiXH+R+2dIQHENh5uxiPct6n+fduTHMJQdjnhazLbLPF5YSndL63qTg44i6Kqfh/vBQ5rPIbuSVzHwgVhe6TNukHvCIcdonNZvWfrblRaBtewFHPxWuylBN3SJBuLls/ptj7eXA0uJh2UgzWTOTuMRAWyFhyRg+NLT115Eeu81m2kWhHmuOxH0Mv5De2f3IDfkTyVKc8Tck15vKmUaah6W66KHCfW5C9WXH5hohPZL+MFM8MhvTm1726NS40AuYv8J8eeAZ6Q5S73SvxLgxr2FxADmA/E7mU0cmj/1ReYLEx5TrMQ6EAuoypacSAmAc34wbqcLagRmSBjFI9pOBMeB8Mga4aOkiI9xlPVDDDTSmaxsrkueJz/deRi5/t5SB6eTzwEXPz3lz5msLjUk4jy7iNGaJ7TkLmd",
+   "route_done": true
   }
  ]
 }
