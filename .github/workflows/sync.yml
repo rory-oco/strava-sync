@@ -66,5 +66,6 @@ jobs:
             echo "No new runs."
           else
             git commit -m "Update runs $(date -u +%F)"
+            git pull --rebase
             git push
           fi
