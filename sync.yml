@@ -1,0 +1,68 @@
+name: Sync Strava runs
+
+on:
+  schedule:
+    # GitHub cron is UTC. Dublin is UTC+0 (winter) or UTC+1 (summer), so we wake at both
+    # possible hours and the script only continues when it is really 13:xx or 20:xx in Dublin.
+    - cron: "5 12,13,19,20 * * *"
+  workflow_dispatch:   # the "Run workflow" button: always syncs, ignores the time check
+    inputs:
+      full:
+        description: "Re-download your whole Strava history (not just recent runs)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: strava-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is it 1pm or 8pm in Dublin?
+        id: gate
+        run: |
+          H=$(TZ=Europe/Dublin date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "13" ] || [ "$H" = "20" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Dublin hour is $H, skipping."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.go == 'true'
+        with:
+          node-version: 20
+
+      - name: Pull runs from Strava
+        if: steps.gate.outputs.go == 'true'
+        env:
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          # Optional but recommended: lets the script save Strava's rotated refresh token.
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          INCLUDE_NAMES: ${{ vars.INCLUDE_NAMES }}
+          FULL_SYNC: ${{ inputs.full }}
+        run: node scripts/sync.mjs
+
+      - name: Commit changes
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          git config user.name "strava-sync"
+          git config user.email "strava-sync@users.noreply.github.com"
+          git add data/runs.json
+          if git diff --cached --quiet; then
+            echo "No new runs."
+          else
+            git commit -m "Update runs $(date -u +%F)"
+            git push
+          fi
