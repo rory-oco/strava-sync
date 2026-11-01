@@ -51,6 +51,8 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           INCLUDE_NAMES: ${{ vars.INCLUDE_NAMES }}
+          INCLUDE_ROUTES: "true"
+          ROUTE_KEY: ${{ secrets.ROUTE_KEY }}
           FULL_SYNC: ${{ inputs.full }}
         run: node scripts/sync.mjs
 
