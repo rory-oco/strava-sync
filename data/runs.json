@@ -1,6 +1,52 @@
 {
- "updated": "2026-11-02T20:55:05.771Z",
+ "updated": "2026-11-16T00:10:54.683Z",
  "runs": [
+  {
+   "id": 20982902874,
+   "date": "2026-11-14T11:23:34Z",
+   "distance_m": 3003,
+   "moving_s": 1124,
+   "elapsed_s": 1124,
+   "elevation_m": 0,
+   "avg_hr": 172,
+   "max_hr": 184,
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1002,
+     "moving_s": 374,
+     "avg_hr": 163,
+     "elevation_difference": -1.1
+    },
+    {
+     "distance_m": 999,
+     "moving_s": 377,
+     "avg_hr": 175,
+     "elevation_difference": -0.3
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 371,
+     "avg_hr": 178,
+     "elevation_difference": 0.4
+    },
+    {
+     "distance_m": 0,
+     "moving_s": 2,
+     "avg_hr": null,
+     "elevation_difference": 0
+    }
+   ],
+   "route_enc": "J4izF/lPWWNChHaqTcZYUahwS+OrEZWpH5L4bTkTm6awPla4dBvum88IUQfrw5aq+L6nI2nBNmAubC54xCQExClZZQbEJwJkAOjTQB4q9FJU/RmQIisZxp8ePgVkNDJ+vDLUu+Ts2l/EZUxTyRDHVni7zHtmdregNDzGM+Y4Kx/gjrzqcgF+1Wr1fhrgHNQ+G9R04sUMZ7gSLAooVwe15SzQiLCnHHwJVukrVtmCd6cFpfa46WW85PYQ7ClWOvsUeiaY2w6iZDQX2lcbJOqqrtuf9oyFu+H7GBf+UzumhYmkuaDvWQfhVH3hBAelAp75DIVi0fP+g/IA1jaQ01++duiZCHR+hneYsPAPItWlt2MKg/xeKjxc+u30gCpukLx/uXDRWrdiLPoJJf0vzg7OJMOttYCKlJcEBTttmdbeQ6E7ViZzw59aEaG8QtTzXLjPzfwR86IWtCPCG14D9zNJzWVbFVf9JUJEQs+jUjMapDCizH4Y/0iFxZaXCyYS7IMYVX42BRtvikOFRzJdwBRv1ViF1Xtee0WnymYanQXqbAtw6n7NgwOwv5paIxSM3TQYVToYH0fqV3PRx5XUOvwhtJbq401mTX679cCW5vdhfwCMGyY5j1dHqwFOz2Ao+Q==",
+   "route_done": true,
+   "hr_zones": [
+    18,
+    65,
+    160,
+    881,
+    0
+   ]
+  },
   {
    "id": 20831683688,
    "date": "2026-11-02T16:55:09Z",
