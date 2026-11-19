@@ -1,6 +1,76 @@
 {
- "updated": "2026-11-16T00:10:54.683Z",
+ "updated": "2026-11-19T20:26:17.473Z",
  "runs": [
+  {
+   "id": 21046776137,
+   "date": "2026-11-19T12:31:26Z",
+   "distance_m": 7003,
+   "moving_s": 3263,
+   "elapsed_s": 3272,
+   "elevation_m": 0,
+   "avg_hr": 157,
+   "max_hr": 176,
+   "type": "Run",
+   "splits": [
+    {
+     "distance_m": 1002,
+     "moving_s": 417,
+     "avg_hr": 155,
+     "elevation_difference": -1.1
+    },
+    {
+     "distance_m": 998,
+     "moving_s": 422,
+     "avg_hr": 172,
+     "elevation_difference": -0.3
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 477,
+     "avg_hr": 160,
+     "elevation_difference": 0.3
+    },
+    {
+     "distance_m": 1000,
+     "moving_s": 500,
+     "avg_hr": 155,
+     "elevation_difference": 0.2
+    },
+    {
+     "distance_m": 1002,
+     "moving_s": 487,
+     "avg_hr": 151,
+     "elevation_difference": 0.1
+    },
+    {
+     "distance_m": 998,
+     "moving_s": 481,
+     "avg_hr": 153,
+     "elevation_difference": -0.1
+    },
+    {
+     "distance_m": 1001,
+     "moving_s": 476,
+     "avg_hr": 152,
+     "elevation_difference": 0
+    },
+    {
+     "distance_m": 2,
+     "moving_s": 3,
+     "avg_hr": 161,
+     "elevation_difference": 0
+    }
+   ],
+   "route_enc": "j8HF/Y/1menTj0qgCpAa/99Me7HRo53ha1wQPrbqnEGzoMx5Dbp/VfHORDy95OIwYrcRTAbhU20iOxwBXdVIM2xTwgMLv0dRUzkqYRMrzq9GPoxTb75gS4Jtm5GvVHHOwB9aTcY2xn2KIuEXruXtuA8/0YFtqaKHaBoCbarByt8fgD24Sv0fJ9Lo+/IKsStXnoq6I03WDlW+K58a5CG83FL3LaSuwCHmkMD9mYQQ4FNo21FOL6GrnfCGjD0F4l7hoolpX0n3JDyXOtWVbbYx+Tav0wa27OvayAfEyVXDxtzDt8sTd1X0Ldy7LaqrJPUZYwNYKGyGtdhj0DHrwlShTj3BaJatNtCoAywZBOQiegSKyp3XRZNuROqbiHNEhzrgafW2L0Y/Xw66ij47fo7Heh4CIg6WnC2NoLZyxwqKkMoZOThNNJcNODIpsDXwTHT1jWty9rgvJReveqxXkSkBaEElIaP4kVie+REHzZ0timJUlH1fuDjk9DiQertI037tIqRTKrW7j++Aouuo/RIe3ksDzHqwZ1ITHaVmnpb+q8NuHl991DYcM14WW9l4k9J6Rpmjl+RCQdLJlDuohtS+8mVVEXsC6+6KlsPVfF5HUf1ThUXO8uPKCDCuRMZYF9UO/lem/rsF/VnvrOch3OpM48921LSXpLc/X+ODTDlnC0eRbYkPArIG8mH4fUqxmHs4uI28cAR6jdZ2f3tewMPVMMI+EmDmG92C8a98qTihbJHGyVs6BAR7zZEBnWGDAp6bzbUELlzSKru2dxzghauTApsV0wC4N1GBt4JfhqRSbOTFwFncdJnhwyFpXrkIxg+tvKhs4L1MPhJza5xPDdnKNEuoAbKZmVmpfhUxPp7gApxz27QFWCXL29pYixpdDu/H12egKFQk5D/CJbOhZ2uYdhWyv9+23PwTmcuNnpymJwCun/5ZVgH9fWiZsWtWt5KkAUM1meCCrYQngSpij1B6UqivcytFCUnd/VCW+QpKnvw29E1/MQKfnfJfMjz7F3gavlC5DGUYFnD0JIyHTzQDbWd0fdhNB4FGekPSKQqZQYs97w3vSF+Vh/CSfKrKr9LUXLOT6q2mTse2vhvMBu2RFUHTeFk8FTVrQaCC0bVESFLvToxbYknwF+dcDM/DIHow1oSvi/DNtrjefurD62NbNBDjMLybpPiA5CuyBshjKVBG3YX6cKNDjzhmPglm+3LCWeYE0okeTl47FR8psBTSLbK2qGq9RucjGC8KO+GD1pO8GoxeyispOtM0ajQQmT8VS5hYoTrK4yW3Ek/vnAsGPbwMM49r3IH6kQtPWQt1WGarHfd1+IUWDISisDNF5qGRYCOwlivUMSAzaEJMlPf2bKH8aFfEVuNvuRqFPYbLwbP/Jv7UBvyMUOM+gC3KDWy+9CnQQ46som/TYzVXsawC1c3i4yd2CB+VMLMthxtlCWuhXNphzhGSKAPtrMjPLrds0r2nQs6NPzPvuF7kQk+njSOqHr4mXk6U+Lj5JX1EA5RlhBk=",
+   "route_done": true,
+   "hr_zones": [
+    26,
+    1759,
+    1127,
+    351,
+    0
+   ]
+  },
   {
    "id": 20982902874,
    "date": "2026-11-14T11:23:34Z",
